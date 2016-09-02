@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout the history of Babylon.js, coders and authors have written tutorials and documentation which is stored in places other than at our primary documentation site.  In *this* document, we will attempt provide links-to and information-about those off-site documents.
+Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout the history of Babylon.js, coders and authors have written tutorials and documentation which is stored in places other than at our primary documentation site.  In *this* document, we will attempt to provide links-to and information-about those off-site documents.
    
 ## Deltakosh - http://eternalcoding.com
 
