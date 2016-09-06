@@ -7,7 +7,7 @@ Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout t
 ## Deltakosh - http://eternalcoding.com
 
 
-|____________Title____________ | Keywords | Description |
+|______________Title______________ | Keywords | Description |
 | :--- | :---: | --- |
 | [ What's New - Babylon.js 2.4 ](https://www.eternalcoding.com/?p=2764) | Canvas2D, RefractionTexture, CubeMap, HDR, Lights, Physics, Unity3D, Parallax, Shader Includes | In this fine document, David Catuhe takes us on a tour of the most exciting new features of Babylon.js version 2.4.  David includes some nice demos, brief overviews, and tasty illustrations.  Deltakosh knows how to create a great looking document.  I think you will agree.|
 | [ Going Further - Babylon.js 2.3 ](https://www.eternalcoding.com/?p=2331) | PointLight, Shadow, WebGL2, Sponza | In this info-file, Deltakosh tells us all about Dynamic Point Light Shadows which is a great new feature of Babylon.js 2.3. He also covers aspects of the fantastic Sponza Demo, which demonstrates this new DPLS feature. |
