@@ -24,7 +24,7 @@ Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout t
 | [ **Lights, Lights, Lights** ](https://www.eternalcoding.com/?p=293) | Light | Although we have a main docs-site tutorial for lights, here is another introductory tutorial that teaches the four main types of lights used in/for Babylon.js. |
 | [ **Unleash the StandardMaterial** ](https://www.eternalcoding.com/?p=303) | StandardMaterial, Material, Texture | Basic StandardMaterial usage/features are the theme in this introductory tutorial.  An easy-read doc, covering the basics. |
 | [ **Babylon.js - The Early Days** ](https://www.eternalcoding.com/?p=323) | Babylon | Take a walk through the early days of the Babylon.js webGL framework.  Possibly, one of the first documents where Deltakosh introduces his wonderful 3D system. Since then, Babylon.js has tripled its levels of wonderful.|
-| [ **Performance Tips - Instances and GC** ](https://www.eternalcoding.com/?) | Performance, Instantiations, Garbage Collection | Here, Deltakosh shows us some performance tips which apply not only to Babylon.js, but to the all JavaScript apps. Tweak your performance - the Deltakosh way.  |
+| [ **Performance Tips - Instances and GC** ](https://www.eternalcoding.com/?) | Performance, Instantiations, Garbage Collection | Here, Deltakosh shows us some performance tips which apply not only to Babylon.js, but to all JavaScript apps. Tweak your performance - the Deltakosh way.  |
 
 ## Davrous - https://www.davrous.com
 
