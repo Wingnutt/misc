@@ -15,7 +15,7 @@ Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout t
 | [ **What's New - Babylon.js 2.0** ](https://www.eternalcoding.com/?p=1883) | WebAudio, Volumetric, VLS, SceneOptimizer, Occlusion, SSAO, Level of Detail, LOD, Instanced Bones | Babylon.js 2.2 was a release chocked-full of new, powerful features. These features have become our new best friends, and you can hear the happiness in Deltakosh's words, as he takes us on a brief tour. |
 | [ **The Train Demo** ](https://www.eternalcoding.com/?p=193) | DrawElements | The Train Demo, which can be viewed on the Babylon.js main web site... is truly a work of art.  It is also a work of technology. In this document, Deltakosh talks about the developing of this _grand_ demo.  |
 | [ **Open-Sourcing the Docs** ](https://www.eternalcoding.com/?p=1962) | Documentation, Community | Deltakosh speaks about core-team documentation philosophies, particularly, community involvement. |
-| [ **Our Move to TypeScript** ](http://eternalcoding.com/) | TypeScript, Source | Here, Deltakosh tells of the thought and activities behind the move from plain Javascript... to TypeScript. |
+| [ **Our Move to TypeScript** ](http://eternalcoding.com/) | TypeScript, Source | Here, Deltakosh tells of the thought and activities behind the move from plain JavaScript... to TypeScript. |
 | [ **All About Shaders** ](https://www.eternalcoding.com/?p=113) | Shaders, Vertex Shader, Fragment Shader, GLSL, ShaderMaterial, CYOS | This is a great introduction to shaders, and how they can be used in Babylon.js.  An easy-reading, yet thorough tutorial with great illustrations. Prepare yourself to become excited about shaders, as this document will make you so.|
 | [ **Understanding Device Orientation** ](https://www.eternalcoding.com/?) | DeviceOrientation, EventListener | Device Orientation inputs... are the wave of the future. According to Deltakosh, they "rock"... literally. :)  Join David and his friends for this superb exploration of device orientation tech and its uses. |
 | [ **Physics in WebGL Games** ](https://www.eternalcoding.com/?p=153) | CannonJS, OimoJS, Physics | Although this is an older document, it still speaks pertinently about the wonderful world of WebGL physics engine integration. |
@@ -66,9 +66,12 @@ Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout t
 | [ **Scene Optimization Part 2 - The Materials** ]() | Optimization | Coming soon!  |
 | [ **Scene Optimization Part 3 - The Effects** ]() | Optimization | Coming soon! |
 | [ **WebWorker-Based Collision Detection in Babylon.js** ](https://blog.raananweber.com/2015/05/26/collisions-using-workers-for-babylonjs/) | WebWorker, Worker, Collision, Messages | Web workers are a method to fork-off :x certain scene tasks... to separate OS threads.  Remember how I mentioned above... that Raanan likes to smooth rough roads?  Collision detection/servicing is one of those webGL rough roads caused by heavy loads.  In this 2-part series, Raanan meticulously analyses the situation, and applies worker threads to attempt improvements. A link to part 2 is provided near the bottom. |
-| [ **Integrating Travis-CI and BabylonJS** ](http://blog.raananweber.com/tag/babylonjs/) | Travis, GitHub, Integration, NodeJS, NPM, Gulp, Grunt, TypeScript | This short tutorial is mostly for those who *build* Babylon.js from TypeScript souce.  Travis has many features that assist during the build process, and Raanan shows us how to set it up properly. |
+| [ **Integrating Travis-CI and BabylonJS** ](http://blog.raananweber.com/tag/babylonjs/) | Travis, GitHub, Integration, NodeJS, NPM, Gulp, Grunt, TypeScript | This short tutorial is mostly for those who *build* Babylon.js from TypeScript source.  Travis has many features that assist during the build process, and Raanan shows us how to set it up properly. |
 
 
 ## Pryme8 - https://pryme8.github.io/NeatFlax/
 
 Coming soon!
+
+## Everyone/Anyone Else - Coming Soon!
+
