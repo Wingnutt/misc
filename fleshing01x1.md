@@ -7,7 +7,7 @@ Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout t
 ## Deltakosh - http://eternalcoding.com
 
 
-|Title | Keywords | Description |
+| Title | Keywords | Description |
 | --- | :---: | --- |
 | [ **What's New - Babylon.js 2.4** ](https://www.eternalcoding.com/?p=2764) | Canvas2D, RefractionTexture, CubeMap, HDR, Lights, Physics, Unity3D, Parallax, Shader Includes | In this fine document, David Catuhe takes us on a tour of the most exciting new features of Babylon.js version 2.4.  David includes some nice demos, brief overviews, and tasty illustrations.  Deltakosh knows how to create a great looking document.  I think you will agree.|
 | [ **Going Further - Babylon.js 2.3** ](https://www.eternalcoding.com/?p=2331) | PointLight, Shadow, WebGL2, Sponza | In this info-file, Deltakosh tells us all about Dynamic Point Light Shadows which is a great new feature of Babylon.js 2.3. He also covers aspects of the fantastic Sponza Demo, which demonstrates this new DPLS feature. |
@@ -67,6 +67,21 @@ Hello, welcome to Babylon.js  - a webGL game developer's framework. Throughout t
 | [ **Scene Optimization Part 3 - The Effects** ]() | Optimization | Coming soon! |
 | [ **WebWorker-Based Collision Detection in Babylon.js** ](https://blog.raananweber.com/2015/05/26/collisions-using-workers-for-babylonjs/) | WebWorker, Worker, Collision, Messages | Web workers are a method to fork-off :x certain scene tasks... to separate OS threads.  Remember how I mentioned above... that Raanan likes to smooth rough roads?  Collision detection/servicing is one of those webGL rough roads caused by heavy loads.  In this 2-part series, Raanan meticulously analyses the situation, and applies worker threads to attempt improvements. A link to part 2 is provided near the bottom. |
 | [ **Integrating Travis-CI and BabylonJS** ](http://blog.raananweber.com/tag/babylonjs/) | Travis, GitHub, Integration, NodeJS, NPM, Gulp, Grunt, TypeScript | This short tutorial is mostly for those who *build* Babylon.js from TypeScript source.  Travis has many features that assist during the build process, and Raanan shows us how to set it up properly. |
+
+## Célian Garcia (Kostar111) - Home Website Unknown
+
+| Title | Keywords | Description |
+| --- | :---: | --- |
+| [ **Querying for Terrain Data** ](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http%3A%2F%2Fmakina-corpus.com%2Fblog%2Fmetier%2F2014%2Faffichage-dun-mnt-avec-babylon-js-a-partir-de-donnees-postgresql) | VertexData, PostgreSQL, PostGIS, SQL | French researcher Célian Garcia (Kostar111) has worked on elevation models and tiled terrain, using Babylon.js as his plotter/renderer.  In this real-time-translated document, Kostar uses DB queries to gather JSON, which he then transforms into a Babylon.js heightMap. |
+| [ **Working with Babylon.js Terrains** ](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http%3A%2F%2Fmakina-corpus.com%2Fblog%2Fmetier%2F2014%2Fvisualiser-des-chemins-de-randonnee-en-3d-grace-a-babylonjs) | Terrain, HeightMap | Kostar111 continues his research into terrain generation, in this 3-part translated tutorial. |
+| [ **Creating Tiled Ground in Babylon.js** ](https://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http%3A%2F%2Fmakina-corpus.com%2Fblog%2Fmetier%2F2014%2Fvisualiser-des-chemins-de-randonnee-en-3d-grace-a-babylonjs) | Terrain, HeightMap, Tile | Kostar111 is back, with this Babylon.js-specific tutorial about creating tiled grounds. No translations, great illustrations, and some very nice playground demos.  Thanks Célian! |
+
+
+## Rahman Nasimi Asl - https://ir.linkedin.com/in/rahman-nasimi-asl-2a597055
+| Title | Keywords | Description |
+| :--- | :---: | --- |
+| [ **ShaderBuilder** ](http://cdn.rawgit.com/RNasimiAsl/Extensions/master/ShaderBuilder/Documentation/ShaderBuilderReferences.html) | Shader, Fluent | Rahman is a master of shaders, and a master of assembling shader code... because of his fantastic ShaderBuilder (EASH) extension for Babylon.js.  In this document, Rahman introduces us to the ShaderBuilder magic, and provides some demo scenes.  Be patient with the demo scene loading. |
+| [ **YouTube Tutorials** ](https://www.youtube.com/channel/UC1v47iVFGqTeUJle9viDqKA) | GeometryBuilder, Bandicam | Here is Rahman's YouTube page, where there are 6 videos, all related to Babylon.js. Rahman also introduces us to a very unique mesh generator that he calls Geometry Builder.  We have seen demos, and it is FANTASTIC! |
 
 
 ## Pryme8 - https://pryme8.github.io/NeatFlax/
