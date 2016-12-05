@@ -1,10 +1,7 @@
-{"producer":{"name":"DynamicGen","version":"yo_mama","exporter_version":"custom","file":"fishlips.babylon"},
-"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"ambientColor":[0,0,0],"gravity":[0,-9.81,0],
+{"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"ambientColor":[0,0,0],"gravity":[0,-9.81,0],
 "materials":[],
 "multiMaterials":[],
 "skeletons":[],
-"cameras":[],
-"lights":[],
 "meshes":[
 {"name":"Plane","id":"Plane","metadata":"hello_fishlips!","materialId":"Material.001","position":[0.0172,-2.9787,-0.5184],"rotation":[-0.0000,-0.0000,0.0000],"scaling":[87.1479,0.8635,87.1479],"isVisible":true,"isEnabled":true,"checkCollisions":false,"billboardMode":0,"receiveShadows":true,"positions":[-1.0000,0.0000,-1.0000,1.0000,0.0000,-1.0000,-1.0000,0.0000,1.0000,1.0000,0.0000,1.0000]
 ,"normals":[0.0000,1.0000,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,0.0000,0.0000,1.0000,0.0000]
@@ -13,6 +10,8 @@
 ,"subMeshes":[{"materialIndex":0,"verticesStart":0,"verticesCount":4,"indexStart":0,"indexCount":6}]
 }
 ],
+"cameras":[],
+"lights":[],
 "shadowGenerators":[],
 "animations":[],
 "multiMaterials":[],
