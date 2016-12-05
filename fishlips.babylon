@@ -1,4 +1,4 @@
-{"producer":{"name":"DynamicGen","version":"yo mama","exporter_version":"custom","file":"fishlips.babylon"},
+{"producer":{"name":"DynamicGen","version":"yo_mama","exporter_version":"custom","file":"fishlips.babylon"},
 "autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"ambientColor":[0,0,0],"gravity":[0,-9.81,0],
 "materials":[],
 "multiMaterials":[],
