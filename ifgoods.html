@@ -39,7 +39,7 @@
         	scene.clearColor = new BABYLON.Color3(0.5, 0.2, 0.2);
             
         	//Camera
-        	var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI/2, .8, 150, new BABYLON.Vector3(0, 0, 0), scene);
+        	var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI/2, .8, 60, new BABYLON.Vector3(0, 0, 0), scene);
         	camera.attachControl(canvas, true);
         	
         	//lights
@@ -66,8 +66,8 @@
         	var myspan = document.createElement("span");
         	myspan.id = "ms123";
         	myspan.style.position = "absolute";
-        	myspan.style.left = "60%";
-        	myspan.style.top = "20%";
+        	myspan.style.left = "45%";
+        	myspan.style.top = "10%";
         	myspan.style.border = "4pt outset blue";
         	myspan.style.backgroundColor = "teal";
         	myspan.style.color = "gold";
@@ -95,7 +95,13 @@
                 document.getElementById("ms123").textContent = "Button Up";
         	}, false);
         
-        
+
+		// ----------------------------------------------
+        	canvas.addEventListener("pointerout", function () {
+                document.getElementById("ms123").textContent = "Canvas out";
+        	}, false);
+		// ----------------------------------------------        
+
         /*
         	document.getElementById("canvasZone").addEventListener("pointerover", function () {
                 document.getElementById("ms123").textContent = "CanvasZone Over";
