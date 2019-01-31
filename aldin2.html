@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Babylon.js sample code</title>
+
+        <!-- Babylon.js -->
+        <script src="https://code.jquery.com/pep/0.4.2/pep.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
+        <script src="https://preview.babylonjs.com/ammo.js"></script>
+        <script src="https://preview.babylonjs.com/cannon.js"></script>
+        <script src="https://preview.babylonjs.com/Oimo.js"></script>
+        <script src="https://preview.babylonjs.com/gltf_validator.js"></script>
+        <script src="https://preview.babylonjs.com/earcut.min.js"></script>
+        <script src="https://preview.babylonjs.com/babylon.js"></script>
+        <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+        <script src="https://preview.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+        <script src="https://preview.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+        <script src="https://preview.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
+        <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+        <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
+        <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+
+        <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: auto;
+            }
+        </style>
+    </head>
+<body>
+<canvas id="renderCanvas" touch-action="auto"></canvas> //touch-action="none" for best results from PEP
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+	console.log("dom content loaded");
+	// get the canvas DOM element
+	
+	var canvas = document.getElementById("renderCanvas");
+
+     
+	// global variable 'freelook'.  Nobody likes global variables.  :)
+	// Unfortunately, I think it is needed in this situation.
+	// Wingnut still searches for better ways.  I hope others will help.
+
+
+	var createScene = function() {
+    	var scene = new BABYLON.Scene(engine);
+    	var pickedMesh = undefined;
+
+    	//Adding a light
+
+    	var light = new BABYLON.PointLight("Omni", new BABYLON.Vector3(20, 20, 100), scene);
+
+    	//Adding an Arc Rotate Camera
+    	var camera = new BABYLON.ArcRotateCamera("Camera",42, 0.8, 400, BABYLON.Vector3.Zero(), scene);
+    	camera.attachControl(canvas, false);
+    	// scene.activeCamera = camera;
+
+    	// camera.setTarget(BABYLON.Vector3.Zero());
+
+    	// The first parameter can be used to specify which mesh to import. Here we import all meshes
+    	
+    	BABYLON.SceneLoader.ImportMesh("", "https://cdn.rawgit.com/aldinabdagic/misc/master/", "meshesone.babylon", scene, function (myMeshesOne) {
+        	// Set the target of the camera to the first imported mesh
+        	
+        	BABYLON.SceneLoader.ImportMesh("", "https://cdn.rawgit.com/aldinabdagic/misc/master/", "meshestwo.babylon", scene, function (myMeshesTwo) {
+            	// Set the target of the camera to the first imported mesh
+        	
+            	BABYLON.SceneLoader.ImportMesh("", "https://cdn.rawgit.com/aldinabdagic/misc/master/", "meshesthree.babylon", scene, function (myMeshesThree) {
+                	// Set the target of the camera to the first imported mesh
+        	
+    				// add buttons
+    				var buttonbox = document.createElement('div');
+    				buttonbox.id = "buttonbox";
+    				buttonbox.style.position = "absolute";
+    				buttonbox.style.top = "60px";
+    				buttonbox.style.left = "85%";
+    				buttonbox.style.border = "5pt inset blue";
+    				buttonbox.style.padding = "2pt";
+    				buttonbox.style.paddingRight = "2pt";
+    				buttonbox.style.width = "10em";
+    				buttonbox.style.display = "block";
+    				document.body.appendChild(buttonbox);
+
+
+    				var tTag = document.createElement('div');
+    				tTag.id = "choose";
+    				tTag.textContent = "Mesh name";
+    				tTag.style.textAlign = "center";
+    				tTag.style.border = "2pt solid gold";
+    				tTag.style.marginLeft = "1.5pt";
+    				tTag.style.marginTop = "3pt";
+    				tTag.style.marginBottom = "2pt";
+    				tTag.style.backgroundColor = "dodgerblue";
+    				tTag.style.width = "96%";
+    				tTag.style.fontSize = "1.0em";
+    				tTag.style.color = "white";
+    				buttonbox.appendChild(tTag);
+
+
+    				var header = document.createElement('div');
+    				header.id = "header";
+    				header.textContent = "No Picked Mesh";
+    				header.style.textAlign = "center";
+    				header.style.marginTop = "3pt";
+    				header.style.marginBottom = "2pt";
+    				header.style.border = "2pt solid red";
+    				header.style.marginLeft = "1.5pt";
+    				header.style.backgroundColor = "teal";
+    				header.style.width = "96%";
+    				header.style.fontSize = "1.0em";
+    				header.style.color = "black";
+    				buttonbox.appendChild(header);
+
+    				var b8 = document.createElement('button');
+    				b8.id = "setLateralLeft";
+    				b8.textContent = "Vis +";
+    				b8.style.display = "block";
+    				b8.style.width = "100%";
+    				b8.style.fontSize = "1.1em";
+    				buttonbox.appendChild(b8);
+    				b8.onclick = function() {
+						if (pickedMesh) {
+							var pm = pickedMesh;
+							console.log("@increaseViz(), pickedMesh: ", pm.name);
+	   						pm.visibility = (pm.visibility < 1 ? pm.visibility += .1 : pm.visibility);
+						}
+    				}
+
+       				var b8 = document.createElement('button');
+    				b8.id = "setLateralLeft";
+    				b8.textContent = "Vis -";
+    				b8.style.display = "block";
+    				b8.style.width = "100%";
+    				b8.style.fontSize = "1.1em";
+    				buttonbox.appendChild(b8);
+    				b8.onclick = function() {
+						if (pickedMesh) {
+							var pm = pickedMesh;
+	         				console.log("@decreaseViz(), pm: ", pm.name);
+    	       				pm.visibility = (pm.visibility > 0 ? pm.visibility -= .1 : pm.visibility)
+						}
+    				}
+
+
+					// ---- items for click on blank space  ----
+					var clickFunction = function() {
+   						var pickResult = scene.pick(scene.pointerX, scene.pointerY);
+   						if (!pickResult.hit) {
+       						header.textContent = "No Picked Mesh"; 
+   						}
+					};
+
+					// Check for click in empty area
+					window.addEventListener("click", clickFunction);
+
+					// ---- clean-off old HTML, mostly for playground -----
+					scene.onDispose = function() {
+   						window.removeEventListener("click", clickFunction);
+
+   						if (document.getElementById("buttonbox")) {
+       						document.getElementById("buttonbox").parentNode.removeChild(document.getElementById("buttonbox"));
+   						}
+					}
+
+
+					// wingnut testing
+//					scene.executeWhenReady(function(){
+//						console.log("ewr");
+//					});
+
+
+					// not sure why onReady observable is failing, but executeWhenReady seems to work.
+//					scene.onReadyObservable.add( function(){
+
+					scene.executeWhenReady(function(){
+						console.log("scene is ready");
+   						for (var i=0;i<scene.meshes.length;i++) {
+       						var mesh = scene.meshes[i];
+       						mesh.isPickable = true;
+       						mesh.actionManager = new BABYLON.ActionManager(scene);
+
+       						mesh.actionManager
+       						.registerAction(
+           						new BABYLON.ExecuteCodeAction(
+               						BABYLON.ActionManager.OnPickTrigger, function(bjsevt) {
+                   						// console.log(bjsevt);
+                   						// bjsevt = evt;
+										pickedMesh = bjsevt.source;
+                   						header.textContent = bjsevt.source.name;
+
+               						}
+           						)
+       						)
+   						}
+					});
+    	
+
+    	
+            	});  // end of MeshOne onSuccess area
+        	});  // end of MeshTwo onSuccess area
+    	});  // end of MeshThree onSuccess area
+
+
+
+    	// Move the light with the camera
+    	scene.registerBeforeRender(function () {
+        	light.position = camera.position;
+    	});
+
+    	return scene;
+	}
+        
+	var engine = new BABYLON.Engine(canvas, true, { preserveDrawingBuffer: true, stencil: true });
+	var scene = createScene();
+
+	engine.runRenderLoop(function () {
+   		if (scene) {
+       		scene.render();
+   		}
+	});
+
+	// Resize
+	window.addEventListener("resize", function () {
+   		engine.resize();
+	});
+
+}); // domcontent
+
+</script>
+</body>
+</html>
