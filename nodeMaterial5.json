@@ -1,0 +1,1408 @@
+{
+  "tags": null,
+  "id": "node",
+  "uniqueId": 1,
+  "name": "node",
+  "checkReadyOnEveryCall": false,
+  "checkReadyOnlyOnce": false,
+  "state": "",
+  "alpha": 1,
+  "backFaceCulling": true,
+  "sideOrientation": 1,
+  "alphaMode": 2,
+  "_needDepthPrePass": false,
+  "disableDepthWrite": false,
+  "forceDepthWrite": false,
+  "separateCullingPass": false,
+  "fogEnabled": true,
+  "pointSize": 1,
+  "zOffset": 0,
+  "wireframe": false,
+  "pointsCloud": false,
+  "fillMode": 0,
+  "customType": "BABYLON.NodeMaterial",
+  "outputNodes": [
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367
+  ],
+  "blocks": [
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 339,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 340,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 341,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 342,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 343,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 344,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 345,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 346,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 347,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 348,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 349,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 350,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 351,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 352,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 353,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 354,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 355,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 356,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 357,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 358,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 359,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 360,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 361,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 362,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 363,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 364,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 365,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 366,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.VertexOutputBlock",
+      "id": 367,
+      "name": "VertexOutput",
+      "inputs": [
+        {
+          "name": "vector"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 368,
+      "name": "Time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 1,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 371,
+      "name": "Delta time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "systemValue": 9,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 372,
+      "name": "Float",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 373,
+      "name": "Vector2",
+      "inputs": [],
+      "type": 4,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector2",
+      "value": [
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 374,
+      "name": "Vector3",
+      "inputs": [],
+      "type": 8,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector3",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 375,
+      "name": "Vector4",
+      "inputs": [],
+      "type": 16,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector4",
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 376,
+      "name": "Delta time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "systemValue": 9,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 377,
+      "name": "Float",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 378,
+      "name": "Time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 1,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 379,
+      "name": "Vector2",
+      "inputs": [],
+      "type": 4,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector2",
+      "value": [
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 380,
+      "name": "Delta time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "systemValue": 9,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 381,
+      "name": "Float",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 382,
+      "name": "Vector2",
+      "inputs": [],
+      "type": 4,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector2",
+      "value": [
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 383,
+      "name": "Vector3",
+      "inputs": [],
+      "type": 8,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector3",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 384,
+      "name": "Vector4",
+      "inputs": [],
+      "type": 16,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector4",
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 385,
+      "name": "Float",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 386,
+      "name": "Time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 1,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 387,
+      "name": "Vector2",
+      "inputs": [],
+      "type": 4,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector2",
+      "value": [
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 388,
+      "name": "Vector3",
+      "inputs": [],
+      "type": 8,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector3",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 389,
+      "name": "Time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 1,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 390,
+      "name": "Float",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 391,
+      "name": "Time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 1,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 392,
+      "name": "Vector2",
+      "inputs": [],
+      "type": 4,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector2",
+      "value": [
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 393,
+      "name": "Vector3",
+      "inputs": [],
+      "type": 8,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector3",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 394,
+      "name": "Vector4",
+      "inputs": [],
+      "type": 16,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector4",
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 395,
+      "name": "Float",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 396,
+      "name": "Time",
+      "inputs": [],
+      "type": 1,
+      "mode": 0,
+      "animationType": 1,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 397,
+      "name": "Vector2",
+      "inputs": [],
+      "type": 4,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector2",
+      "value": [
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.InputBlock",
+      "id": 398,
+      "name": "Vector3",
+      "inputs": [],
+      "type": 8,
+      "mode": 0,
+      "animationType": 0,
+      "visibleInInspector": false,
+      "min": 0,
+      "max": 0,
+      "matrixMode": 0,
+      "isConstant": false,
+      "valueType": "BABYLON.Vector3",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 399,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 400,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 401,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 402,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 403,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 404,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 405,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 406,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 407,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 408,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 409,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 410,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 411,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 412,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 413,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 414,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    },
+    {
+      "customType": "BABYLON.ReciprocalBlock",
+      "id": 415,
+      "name": "Reciprocal",
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "blockId": 339,
+      "x": 43.23411705852923,
+      "y": 70.72686343171591
+    },
+    {
+      "blockId": 340,
+      "x": 42.23361680840418,
+      "y": 136.75987993996998
+    },
+    {
+      "blockId": 341,
+      "x": 43.234117058529236,
+      "y": 201.79239619809906
+    },
+    {
+      "blockId": 342,
+      "x": 43.23411705852924,
+      "y": 267.82541270635323
+    },
+    {
+      "blockId": 343,
+      "x": 45.23511755877936,
+      "y": 398.89094547273635
+    },
+    {
+      "blockId": 344,
+      "x": 44.23461730865429,
+      "y": 464.92396198099055
+    },
+    {
+      "blockId": 345,
+      "x": 40.232616308154,
+      "y": 599.991495747874
+    },
+    {
+      "blockId": 346,
+      "x": 46.23561780890442,
+      "y": 332.8579289644823
+    },
+    {
+      "blockId": 347,
+      "x": 68.24662331165581,
+      "y": 125.7543771885943
+    },
+    {
+      "blockId": 348,
+      "x": 46.23561780890435,
+      "y": 737.0600300150076
+    },
+    {
+      "blockId": 349,
+      "x": 44.234617308654286,
+      "y": 668.0255127563781
+    },
+    {
+      "blockId": 350,
+      "x": 42.233616808404165,
+      "y": 530.9569784892445
+    },
+    {
+      "blockId": 351,
+      "x": 105.26513256628311,
+      "y": 263.82341170585295
+    },
+    {
+      "blockId": 352,
+      "x": 86.2556278139069,
+      "y": 194.7888944472236
+    },
+    {
+      "blockId": 353,
+      "x": 383.4042021010505,
+      "y": 71.72736368184096
+    },
+    {
+      "blockId": 354,
+      "x": 387.4062031015508,
+      "y": 140.76188094047023
+    },
+    {
+      "blockId": 355,
+      "x": 392.4087043521761,
+      "y": 209.79639819909957
+    },
+    {
+      "blockId": 356,
+      "x": 389.4072036018009,
+      "y": 277.8304152076038
+    },
+    {
+      "blockId": 357,
+      "x": 392.4087043521761,
+      "y": 336.85992996498254
+    },
+    {
+      "blockId": 358,
+      "x": 391.408204102051,
+      "y": 401.89244622311156
+    },
+    {
+      "blockId": 359,
+      "x": 359.39219609804894,
+      "y": 130.75687843921963
+    },
+    {
+      "blockId": 360,
+      "x": 339.38219109554774,
+      "y": 197.79039519759883
+    },
+    {
+      "blockId": 361,
+      "x": 325.37518759379685,
+      "y": 263.82341170585295
+    },
+    {
+      "blockId": 362,
+      "x": 217.3211605802901,
+      "y": 330.85692846423206
+    },
+    {
+      "blockId": 363,
+      "x": 388.4067033516758,
+      "y": 469.92646323161574
+    },
+    {
+      "blockId": 364,
+      "x": 391.40820410205095,
+      "y": 534.9589794897448
+    },
+    {
+      "blockId": 365,
+      "x": 392.40870435217613,
+      "y": 603.9934967483742
+    },
+    {
+      "blockId": 366,
+      "x": 394.40970485242616,
+      "y": 672.0275137568782
+    },
+    {
+      "blockId": 367,
+      "x": 397.41120560280126,
+      "y": 734.0585292646323
+    },
+    {
+      "blockId": 368,
+      "x": -500.1260630315158,
+      "y": 232.98099049524757
+    },
+    {
+      "blockId": 371,
+      "x": -502.0385192596298,
+      "y": 86.7348674337169
+    },
+    {
+      "blockId": 372,
+      "x": -500.0375187593797,
+      "y": 160.77188594297152
+    },
+    {
+      "blockId": 373,
+      "x": -501.03801900950475,
+      "y": 304.8439219609805
+    },
+    {
+      "blockId": 374,
+      "x": -503.03901950975484,
+      "y": 376.879939969985
+    },
+    {
+      "blockId": 375,
+      "x": -503.03901950975484,
+      "y": 447.91545772886445
+    },
+    {
+      "blockId": 376,
+      "x": -506.04052026013005,
+      "y": 517.9504752376188
+    },
+    {
+      "blockId": 377,
+      "x": -507.041020510255,
+      "y": 586.9849924962482
+    },
+    {
+      "blockId": 378,
+      "x": -508.0415207603802,
+      "y": 659.0210105052527
+    },
+    {
+      "blockId": 379,
+      "x": -505.040020010005,
+      "y": 732.0575287643821
+    },
+    {
+      "blockId": 380,
+      "x": -451.01300650325163,
+      "y": 142.76288144072038
+    },
+    {
+      "blockId": 381,
+      "x": -429.00200100050023,
+      "y": 209.79639819909954
+    },
+    {
+      "blockId": 382,
+      "x": -412.99399699849926,
+      "y": 281.83241620810406
+    },
+    {
+      "blockId": 383,
+      "x": -389.9824912456228,
+      "y": 351.86743371685844
+    },
+    {
+      "blockId": 384,
+      "x": -360.967983991996,
+      "y": 421.9024512256128
+    },
+    {
+      "blockId": 385,
+      "x": -332.9539769884942,
+      "y": 491.93746873436726
+    },
+    {
+      "blockId": 386,
+      "x": -307.94147073536766,
+      "y": 563.9734867433717
+    },
+    {
+      "blockId": 387,
+      "x": -281.9284642321161,
+      "y": 634.0085042521259
+    },
+    {
+      "blockId": 388,
+      "x": -263.9194597298649,
+      "y": 705.0440220110055
+    },
+    {
+      "blockId": 389,
+      "x": -196.88594297148575,
+      "y": 84.73386693346674
+    },
+    {
+      "blockId": 390,
+      "x": -195.88544272136068,
+      "y": 158.77088544272135
+    },
+    {
+      "blockId": 391,
+      "x": -194.88494247123563,
+      "y": 232.807903951976
+    },
+    {
+      "blockId": 392,
+      "x": -193.88444222111056,
+      "y": 303.8434217108554
+    },
+    {
+      "blockId": 393,
+      "x": -191.88344172086045,
+      "y": 373.8784392196098
+    },
+    {
+      "blockId": 394,
+      "x": -193.88444222111056,
+      "y": 443.91345672836417
+    },
+    {
+      "blockId": 395,
+      "x": -187.8814407203602,
+      "y": 514.9489744872436
+    },
+    {
+      "blockId": 396,
+      "x": -190.88294147073537,
+      "y": 583.983491745873
+    },
+    {
+      "blockId": 397,
+      "x": -187.8814407203602,
+      "y": 657.0200100050025
+    },
+    {
+      "blockId": 398,
+      "x": -186.88094047023512,
+      "y": 731.0570285142571
+    },
+    {
+      "blockId": 399,
+      "x": 618.5217608804402,
+      "y": 66.72486243121558
+    },
+    {
+      "blockId": 400,
+      "x": 619.5222611305652,
+      "y": 134.75887943971986
+    },
+    {
+      "blockId": 401,
+      "x": 623.5242621310655,
+      "y": 204.79389694847424
+    },
+    {
+      "blockId": 402,
+      "x": 625.5252626313156,
+      "y": 272.82791395697853
+    },
+    {
+      "blockId": 403,
+      "x": 626.5257628814406,
+      "y": 341.8624312156078
+    },
+    {
+      "blockId": 404,
+      "x": 629.5272636318159,
+      "y": 410.89694847423715
+    },
+    {
+      "blockId": 405,
+      "x": 630.5277638819408,
+      "y": 477.9304652326163
+    },
+    {
+      "blockId": 406,
+      "x": 627.5262631315657,
+      "y": 546.9649824912457
+    },
+    {
+      "blockId": 407,
+      "x": 629.5272636318158,
+      "y": 617
+    },
+    {
+      "blockId": 408,
+      "x": 629.5272636318159,
+      "y": 682.032516258129
+    },
+    {
+      "blockId": 409,
+      "x": 634.5297648824411,
+      "y": 751.0670335167583
+    },
+    {
+      "blockId": 410,
+      "x": 781.6033016508253,
+      "y": 62.72286143071537
+    },
+    {
+      "blockId": 411,
+      "x": 781.6033016508254,
+      "y": 130.7568784392196
+    },
+    {
+      "blockId": 412,
+      "x": 774.59979989995,
+      "y": 680.031515757879
+    },
+    {
+      "blockId": 413,
+      "x": 777.6013006503251,
+      "y": 744.0635317658829
+    },
+    {
+      "blockId": 414,
+      "x": 752.5887943971986,
+      "y": 368.87593796898443
+    },
+    {
+      "blockId": 415,
+      "x": 755.5902951475737,
+      "y": 436.9099549774887
+    }
+  ]
+}
